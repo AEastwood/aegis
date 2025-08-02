@@ -1,0 +1,44 @@
+# Visual Studio 2022
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.cache
+*.pdb
+*.ipch
+*.dbmdl
+*.log
+
+# Build output
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.lib
+*.ilk
+*.ncb
+*.idb
+*.tlog
+*.lastbuildstate
+*.opensdf
+
+# CMake (if used)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Others
+*.aps
+*.pch
+*.rsp
+*.tmp
+*.bak
+
+# Ignore generated files
+*.generated.*
+
+# VS Code settings (optional)
+.vscode/
