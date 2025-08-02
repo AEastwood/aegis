@@ -15,7 +15,6 @@ int main()
 {
 	SetConsoleTitleA("[Aegis] v1.0.0");
 
-	// Enable ANSI support
 	HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
 	DWORD dwMode = 0;
 	GetConsoleMode(hOut, &dwMode);
